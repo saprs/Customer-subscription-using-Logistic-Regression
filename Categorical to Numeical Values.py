@@ -1,15 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Feb 14 16:59:57 2018
-
-@author: vibeeshm
-"""
-
 import numpy as np
 import matplotlib . pyplot as plt
 import pandas as pd 
 
-dataset = pd .read_csv ('C:/Users/madha/Documents/Sec Sem/Machine Learning/Assignment 2/bank.csv', sep = ';')
+dataset = pd .read_csv ('C:/Users/venkatrs/Documents/Sec Sem/Machine Learning/Assignment 2/bank.csv', sep = ';')
 
 
 def changingintointegervalues(dataset):
